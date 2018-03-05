@@ -1,6 +1,6 @@
 {% set name = "spdlog" %}
-{% set version = "0.11.0" %}
-{% set sha256 = "8c0f1810fb6b7d23fef70c2ea8b6fa6768ac8d18d6e0de39be1f48865e22916e" %} 
+{% set version = "0.16.3" %}
+{% set sha256 = "b88d7be261d9089c817fc8cee6c000d69f349b357828e4c7f66985bc5d5360b8" %}
 
 package:
   name: {{ name|lower }}
