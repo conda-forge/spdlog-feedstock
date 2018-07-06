@@ -12,15 +12,13 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 1
 
 requirements:
   build:
     - cmake
     - {{ compiler('cxx') }}
-  host:
-    - {{ compiler('c') }}
-    - {{ compiler('cxx') }}
+
   host:
 
   run:
