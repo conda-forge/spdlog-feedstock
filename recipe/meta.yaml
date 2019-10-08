@@ -1,28 +1,23 @@
 {% set name = "spdlog" %}
-{% set version = "1.2.1" %}
-{% set sha256 = "867a4b7cedf9805e6f76d3ca41889679054f7e5a3b67722fe6d0eae41852a767" %}
+{% set version = "1.4.2" %}
+{% set sha256 = "821c85b120ad15d87ca2bc44185fa9091409777c756029125a02f81354072157" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://github.com/gabime/{{ name|lower }}/archive/v{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   skip: true  # [win and vc<14]
 
 requirements:
   build:
     - cmake
     - {{ compiler('cxx') }}
-
-  host:
-
-  run:
 
 test:
   commands:
