@@ -158,4 +158,5 @@ Feedstock Maintainers
 =====================
 
 * [@druvus](https://github.com/druvus/)
+* [@rongou](https://github.com/rongou/)
 
