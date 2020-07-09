@@ -5,7 +5,7 @@ Home: https://github.com/gabime/spdlog
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Super fast C++ logging library.
 
