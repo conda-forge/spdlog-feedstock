@@ -13,8 +13,7 @@ source:
 build:
   number: 1
   run_exports:
-    # SO name changes at minor rev bumps.
-    - {{ pin_subpackage('spdlog', max_pin='x.x') }}
+    - {{ pin_subpackage('spdlog', max_pin='x') }}
   skip: true  # [win and vc<14]
 
 requirements:
@@ -22,6 +21,7 @@ requirements:
     - cmake
     - {{ compiler('cxx') }}
     - make  # [ unix ]
+  host:
     - fmt
 
 test:
