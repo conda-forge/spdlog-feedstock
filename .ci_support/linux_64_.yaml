@@ -8,5 +8,7 @@ cxx_compiler_version:
 - '7'
 docker_image:
 - condaforge/linux-anvil-comp7
+fmt:
+- '7'
 target_platform:
 - linux-64
