@@ -5,5 +5,5 @@ cd build
 
 cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=$PREFIX -D SPDLOG_BUILD_TESTS=ON -D CMAKE_INSTALL_LIBDIR=lib -D SPDLOG_FMT_EXTERNAL=ON -D SPDLOG_BUILD_SHARED=ON ..
 make -j${CPU_COUNT}
-make test
+ctest -VV --output-on-failure
 make install
