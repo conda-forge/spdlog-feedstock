@@ -11,7 +11,10 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
+  run_exports:
+    # SO name changes at minor rev bumps.
+    - {{ pin_subpackage('spdlog', max_pin='x.x') }}
   skip: true  # [win and vc<14]
 
 requirements:
@@ -19,6 +22,7 @@ requirements:
     - cmake
     - {{ compiler('cxx') }}
     - make  # [ unix ]
+    - fmt
 
 test:
   commands:
@@ -40,3 +44,4 @@ extra:
   recipe-maintainers:
     - druvus
     - rongou
+    - bluescarni
