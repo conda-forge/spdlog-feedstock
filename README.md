@@ -5,7 +5,7 @@ Home: https://github.com/gabime/spdlog
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spdlog-feedstock/blob/master/LICENSE.txt)
 
 Summary: Super fast C++ logging library.
 
@@ -179,6 +179,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@bluescarni](https://github.com/bluescarni/)
 * [@druvus](https://github.com/druvus/)
 * [@rongou](https://github.com/rongou/)
 

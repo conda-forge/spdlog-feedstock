@@ -9,9 +9,13 @@ package:
 source:
   url: https://github.com/gabime/{{ name|lower }}/archive/v{{ version }}.tar.gz
   sha256: {{ sha256 }}
+  patches:
+    - async_test_fix.diff
 
 build:
-  number: 0
+  number: 1
+  run_exports:
+    - {{ pin_subpackage('spdlog', max_pin='x') }}
   skip: true  # [win and vc<14]
 
 requirements:
@@ -19,6 +23,8 @@ requirements:
     - cmake
     - {{ compiler('cxx') }}
     - make  # [ unix ]
+  host:
+    - fmt
 
 test:
   commands:
@@ -40,3 +46,4 @@ extra:
   recipe-maintainers:
     - druvus
     - rongou
+    - bluescarni
