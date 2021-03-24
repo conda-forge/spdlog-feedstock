@@ -1,6 +1,6 @@
 {% set name = "spdlog" %}
-{% set version = "1.8.2" %}
-{% set sha256 = "e20e6bd8f57e866eaf25a5417f0a38a116e537f1a77ac7b5409ca2b180cec0d5" %}
+{% set version = "1.8.3" %}
+{% set sha256 = "6f5b88ca4c9b96264e6c961716fec6f1a7b94c80a5edce667c3e42507caa8a82" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
     - async_test_fix.diff
 
 build:
-  number: 1
+  number: 0
   run_exports:
     - {{ pin_subpackage('spdlog', max_pin='x') }}
   skip: true  # [win and vc<14]
