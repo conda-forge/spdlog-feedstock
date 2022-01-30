@@ -1,6 +1,6 @@
 {% set name = "spdlog" %}
-{% set version = "1.9.2" %}
-{% set sha256 = "6fff9215f5cb81760be4cc16d033526d1080427d236e86d70bb02994f85e3d38" %}
+{% set version = "1.8.5" %}
+{% set sha256 = "944d0bd7c763ac721398dca2bb0f3b5ed16f67cef36810ede5061f35a543b4b8" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage('spdlog', max_pin='x.x') }}
 
