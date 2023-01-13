@@ -9,9 +9,11 @@ package:
 source:
   url: https://github.com/gabime/{{ name|lower }}/archive/v{{ version }}.tar.gz
   sha256: {{ sha256 }}
+  patches:
+    - fix.patch
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage('spdlog', max_pin='x.x') }}
 
