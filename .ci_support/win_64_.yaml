@@ -5,6 +5,6 @@ channel_targets:
 cxx_compiler:
 - vs2019
 fmt:
-- '9'
+- '10'
 target_platform:
 - win-64

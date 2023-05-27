@@ -1,11 +1,11 @@
-About spdlog
-============
+About spdlog-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spdlog-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/gabime/spdlog
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spdlog-feedstock/blob/main/LICENSE.txt)
 
 Summary: Super fast C++ logging library.
 
@@ -17,14 +17,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://app.travis-ci.com/conda-forge/spdlog-feedstock">
-        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/spdlog-feedstock/main.svg?label=Linux">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
