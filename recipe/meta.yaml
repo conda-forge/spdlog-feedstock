@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
   patches:
     - fix.patch
-    - 2964.patch
+    - 2694.patch
 
 build:
   number: 2
