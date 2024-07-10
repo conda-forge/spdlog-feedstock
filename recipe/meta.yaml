@@ -13,7 +13,7 @@ source:
     - patches/fix.patch
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage('spdlog', max_pin='x.x') }}
 
@@ -21,6 +21,7 @@ requirements:
   build:
     - cmake
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
     - make  # [unix]
   host:
     - fmt
