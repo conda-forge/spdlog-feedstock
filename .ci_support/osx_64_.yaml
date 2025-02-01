@@ -19,6 +19,6 @@ fmt:
 macos_machine:
 - x86_64-apple-darwin13.4.0
 spdlog:
-- '1.12'
+- '1.13'
 target_platform:
 - osx-64
