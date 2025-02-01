@@ -9,6 +9,6 @@ cxx_compiler:
 fmt:
 - '11'
 spdlog:
-- '1.12'
+- '1.13'
 target_platform:
 - win-64
