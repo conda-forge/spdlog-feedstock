@@ -205,6 +205,3 @@ Feedstock Maintainers
 * [@druvus](https://github.com/druvus/)
 * [@rongou](https://github.com/rongou/)
 
-
-<!-- dummy commit to enable rerendering -->
-
