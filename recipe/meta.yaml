@@ -1,6 +1,6 @@
 {% set name = "spdlog" %}
-{% set version = "1.15.1" %}
-{% set sha256 = "25c843860f039a1600f232c6eb9e01e6627f7d030a2ae5e232bdd3c9205d26cc" %}
+{% set version = "1.15.2" %}
+{% set sha256 = "7a80896357f3e8e920e85e92633b14ba0f229c506e6f978578bdc35ba09e9a5d" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
     - patches/fix.patch
 
 build:
-  number: 1
+  number: 0
   run_exports:
     - {{ pin_subpackage('spdlog', max_pin='x.x') }}
 
