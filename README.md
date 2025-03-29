@@ -203,5 +203,6 @@ Feedstock Maintainers
 
 * [@bluescarni](https://github.com/bluescarni/)
 * [@druvus](https://github.com/druvus/)
+* [@jjerphan](https://github.com/jjerphan/)
 * [@rongou](https://github.com/rongou/)
 
