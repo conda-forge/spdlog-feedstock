@@ -90,14 +90,14 @@ Current release info
 Installing spdlog
 =================
 
-Installing `spdlog` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `spdlog` from the `conda-forge/label/spdlog_dev` channel can be achieved by adding `conda-forge/label/spdlog_dev` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/spdlog_dev
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `spdlog` can be installed with `conda`:
+Once the `conda-forge/label/spdlog_dev` channel has been enabled, `spdlog` can be installed with `conda`:
 
 ```
 conda install spdlog
@@ -112,26 +112,26 @@ mamba install spdlog
 It is possible to list all of the versions of `spdlog` available on your platform with `conda`:
 
 ```
-conda search spdlog --channel conda-forge
+conda search spdlog --channel conda-forge/label/spdlog_dev
 ```
 
 or with `mamba`:
 
 ```
-mamba search spdlog --channel conda-forge
+mamba search spdlog --channel conda-forge/label/spdlog_dev
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search spdlog --channel conda-forge
+mamba repoquery search spdlog --channel conda-forge/label/spdlog_dev
 
 # List packages depending on `spdlog`:
-mamba repoquery whoneeds spdlog --channel conda-forge
+mamba repoquery whoneeds spdlog --channel conda-forge/label/spdlog_dev
 
 # List dependencies of `spdlog`:
-mamba repoquery depends spdlog --channel conda-forge
+mamba repoquery depends spdlog --channel conda-forge/label/spdlog_dev
 ```
 
 
