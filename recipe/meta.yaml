@@ -13,8 +13,6 @@ source:
     - patches/fix.patch
 
 build:
-  # Skip for the `dev` branch creation
-  skip: true
   number: 0
   run_exports:
     - {{ pin_subpackage('spdlog', max_pin='x.x') }}
