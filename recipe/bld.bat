@@ -1,6 +1,7 @@
 mkdir build
 cd build
 
+:: Workaround for: https://github.com/gabime/spdlog/issues/3373
 :: Define the `SPDLOG_COMPILED_LIB` compiler definition
 :: to make sure the spdlog shared library exports all symbols
 :: correctly and that those symbols can be imported correctly then.
