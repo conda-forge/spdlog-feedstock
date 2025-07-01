@@ -5,9 +5,9 @@ channel_sources:
 channel_targets:
 - conda-forge main
 cxx_compiler:
-- vs2019
+- vs2022
 fmt:
-- '11.1'
+- '11.2'
 spdlog:
 - '1.13'
 target_platform:
