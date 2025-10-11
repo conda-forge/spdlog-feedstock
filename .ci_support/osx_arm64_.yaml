@@ -13,12 +13,12 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '18'
+- '19'
 fmt:
 - '11.2'
 macos_machine:
 - arm64-apple-darwin20.0.0
 spdlog:
-- '1.13'
+- '1.15'
 target_platform:
 - osx-arm64
