@@ -15,6 +15,6 @@ docker_image:
 fmt:
 - '12.1'
 spdlog:
-- '1.16'
+- '1.17'
 target_platform:
 - linux-aarch64
